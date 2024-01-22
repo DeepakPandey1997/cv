@@ -3,6 +3,17 @@
 
 <head>
   <meta charset="utf-8" />
+   <link rel='stylesheet'
+  media='handheld, only screen and (max-device-width: 320px)' href='phone.css'>
+   <link rel='stylesheet'
+  media='only screen and (min-width: 641px) and (max-width: 800px)' href='ipad.css'>
+   <style>
+  @media only all and (orientation: portrait) { ... }
+ </style>
+   <!-- media="handheld" trick for Windows Mobile -->
+ <link rel="stylesheet" href="screen.css" media="Screen">
+ <link rel="stylesheet" href="mobile.css" media="handheld">
+  
   <title>
     Resume - Deepak Pandey
   </title>
